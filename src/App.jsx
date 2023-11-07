@@ -1,12 +1,11 @@
 import "./App.css";
+import data from "./data/data.json";
 import Card from "./component/comment/Card";
 
 function App() {
   return (
     <>
-      <Card />
-      <main>kosong</main>
-      <div></div>
+      <Card comments={data.comments} />
     </>
   );
 }
